@@ -1,16 +1,41 @@
 *{
-	font-family: "Stack Sans Text";
+	font-family: "Stack Sans Text", sans-serif;
 }
 
 html{
 	background-color: #ffde85;
 }
 
+body{
+	margin: 0;
+}
+
 h1{
 	color: orange;
 	background-color: yellow;
-	border: 7px solid grey;
-	border-radius: 8px;
 	text-align: center;
+	margin: 0;
 	padding: 10px;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+
+td{
+	border: 2px solid #ff7003;
+	text-align: center;
+	background-color: orange;
+}
+
+td:hover{
+	background-color: #fbff87;
+}
+
+.nav td > a{
+	text-decoration: none;
+	color: brown;
+	font-weight: bold;
 }
