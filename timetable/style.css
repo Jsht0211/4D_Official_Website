@@ -39,10 +39,12 @@ h1{
 	width: 100%;
 }
 
-table{
+#timetable{
 	width: 100%;
+}
+
+table{
 	border-collapse: collapse;
-	margin: 20px;
 }
 
 
