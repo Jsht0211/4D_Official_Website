@@ -1,0 +1,56 @@
+*{
+	font-family: "Stack Sans Text", sans-serif;
+}
+
+html{
+	background-color: #ffde85;
+}
+
+body{
+	margin: 0;
+}
+
+.homebtn{
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	width: 35px;
+	height: 35px;
+	border: 5px solid grey;
+	border-radius: 8px;
+	background-color: orange;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+}
+
+.homebtn a{
+	color: brown;
+	text-decoration: none;
+}
+
+h1{
+	color: orange;
+	background-color: yellow;
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+}
+
+.box{
+	margin: 20px;
+	padding: 16px;
+	width: 400px;
+	background-color: orange;
+	border: 7px solid darkgrey;
+	border-radius: 14px;
+}
+
+a{
+	text-decoration: none;
+	color: brown;
+	font-weight: bold;
+	display: inline-block;
+}
